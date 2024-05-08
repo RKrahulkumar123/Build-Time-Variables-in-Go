@@ -1,6 +1,7 @@
 package config
 
 var (
-	Version string
-	Time    string
+	Version    string
+	CommitHash string
+	BuildTime  string
 )

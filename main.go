@@ -8,5 +8,6 @@ import (
 
 func main() {
 	fmt.Println("My Go App Version:", config.Version)
-	fmt.Println("My Go App Build TIme:", config.Time)
+	fmt.Println("My Go App Commit Hash:", config.CommitHash)
+	fmt.Println("My Go App Build Time:", config.BuildTime)
 }
